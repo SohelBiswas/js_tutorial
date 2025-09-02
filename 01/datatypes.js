@@ -36,5 +36,28 @@ negvalue = -value
 
 // console.log(negvalue);
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
 
+// Stack and Heap
+
+
+let name1 = "Sohel"
+let name2 = name1
+
+name2 = "Biswas"
+
+// console.log(name2);
+// console.log(name1)
+
+
+let user1 = {
+    name: "Sohel",
+    id: 123
+}
+
+user2 = user1
+user2.id = 321
+
+console.log(user2)
+console.log(user1)
 
