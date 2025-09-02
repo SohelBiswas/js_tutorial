@@ -16,10 +16,25 @@ let booleanisLoggedIn = Boolean(isLoggedIn)
 
 let score = 4
 ++score 
-score++
+// score+++
 
 // console.log(score);
 
 
-console.log(null == 0);
+// console.log(null == 1);
+
+
+
+str1 = "Sohel "
+str2 = "Biswas"
+// console.log(str1 + str2);
+
+
+let value = 3
+
+negvalue = -value
+
+// console.log(negvalue);
+
+
 
