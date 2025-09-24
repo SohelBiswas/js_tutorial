@@ -83,3 +83,8 @@ function name(params) {
 }
 
 
+function calculatecart(...num1) {
+    return num1
+    
+}
+// console.log(calculatecart(100, 200, 300 ,400));
