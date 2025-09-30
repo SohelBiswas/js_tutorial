@@ -15,11 +15,11 @@ for (let i = 0; i <= 10; i++) {
 for (let i = 0; i < 7; i++) {
     const element = i;
     
-    console.log(i);
+    // console.log(i);
     if (i == 5) {
-        console.log('5 detected');
+        // console.log('5 detected');
         // break
         continue
     }
-    console.log(`Value of i is ${i}`);
+    // console.log(`Value of i is ${i}`);
 }
