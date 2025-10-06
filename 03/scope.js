@@ -9,15 +9,15 @@ function one() {
         }
 
     two()
-    // console.log(username);
-    // return one()
+    console.log(username);
+
 }
 // console.log(username);
-// one()
+one()
 
 
 const chai =  () => {
     let username = "hitesh"
-    console.log(this);
+    // console.log(this);
 }
 chai()
