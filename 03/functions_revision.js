@@ -23,7 +23,6 @@ function addnum(num1, num2) {
 // console.log(addnum(3, 5));
 
 
-
 // **********Test 2**************
 // ******************************
 
@@ -38,4 +37,35 @@ function addnum(num1, num2) {
   
 }
 
-console.log(addnum(3, 5));
+// console.log(addnum(3, 5));
+
+// *****************Object in Function***********
+// 
+
+const avenger = {
+    name: "Tony Stark",
+    Alias: "Iron Man",
+    serialno: 1
+}
+
+function handleobject(marvel) {
+    console.log(`The name of the Avenger is ${amarvel.name}, alias is ${marvel.Alias} and serial is ${marvel.serialno}`);
+    
+}
+
+ handleobject(avenger);
+
+
+// *****************Array in Function***********
+// 
+
+const arr = [100, 200, 300, 400]
+
+function handleobject(anyobject) {
+    
+    // console.log(`The array is ${anyobject}`);
+    // return arr[1]
+}
+// console.log(handleobject(arr));
+
+// handleobject(arr)
