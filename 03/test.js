@@ -19,4 +19,12 @@ function gymbro(gym) {
     console.log(workout);
     
 }
-gymbro("Ani")
+// gymbro("Ani")
+
+
+function gymbro(gym) {
+    let workout = (gym == "Ani") ? "Gym kokhon jbi?" : "Bhag";
+    return workout
+}
+
+console.log(gymbro("Ani"))
