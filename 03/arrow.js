@@ -9,12 +9,24 @@ const user = {
     }
 }
 
-user.welcomemessage()
+// user.welcomemessage()
 user.username = "Sam"
-user.welcomemessage()    
+// user.welcomemessage()    
 // console.log(this)
 
 
 
+const chai1 = () => {
+    console.log(this);
+    
+}
+// console.log(this);
+// chai1()
 
+const chai2 = function (){
+    console.log(this);
+    
+}
+// console.log(this);
+chai2()
 
