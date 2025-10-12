@@ -44,12 +44,12 @@ function addnum(num1, num2) {
 
 const avenger = {
     name: "Tony Stark",
-    Alias: "Iron Man",
+    alias: "Iron Man",
     serialno: 1
 }
 
-function handleobject(marvel) {
-    console.log(`The name of the Avenger is ${amarvel.name}, alias is ${marvel.Alias} and serial is ${marvel.serialno}`);
+function handleObject(marvel) {
+    console.log(`The name of the Avenger is ${amarvel.name}, alias is ${marvel.alias} and serial is ${marvel.serialno}`);
     
 }
 
