@@ -49,7 +49,7 @@ const avenger = {
 }
 
 function handleObject(marvel) {
-    console.log(`The name of the Avenger is ${amarvel.name}, alias is ${marvel.alias} and serial is ${marvel.serialno}`);
+    console.log(`The name of the Avenger is ${marvel.name}, alias is ${marvel.alias} and serial is ${marvel.serialno}`);
     
 }
 
