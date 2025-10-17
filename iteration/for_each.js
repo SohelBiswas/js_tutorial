@@ -41,7 +41,7 @@ console.log(StudentAge);
 
 students.forEach( (stud) => {
     if (stud.age === 21) {
-        // console.log(stud);
+        console.log(stud);
         return stud
     }
 })
