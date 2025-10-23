@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">STOP</button>
+    <button id="start">START</button>
+</body>
+ <script>
+    setInterval(function(){
+        console.log("Sohel");
+    }, 2000)
+
+    const sayDate = function(){
+        console.log("Sohel2", Date.now());
+        
+    }
+    const interval = setInterval(sayDate, 3000)
+
+    clearInterval(interval)
+</script>
+</html>
