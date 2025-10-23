@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="start">START</button>
+    <button id="stop">STOP</button>    
+</body>
+ <script>
+        const startJob = function () {
+            console.log("Sohel", Date.now());
+            }
+        
+        const startButton = document.querySelector("#start");
+        startButton.addEventListener('click', function () {
+            const interval = setInterval(startJob, 2000)
+
+              const stopButton = document.querySelector("#stop");
+        stopButton.addEventListener('click', function () {
+        clearInterval(interval)
+        console.log("'Job Stopped");
+        
+        })
+        })
+</script>
+</html>
