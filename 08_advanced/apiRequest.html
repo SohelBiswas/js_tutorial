@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Intro</title>
+ </head>
+ <body> </body>
+ <script>
+   requestUrl = 'https://api.github.com/users/SohelBiswas'
+   const xhr = new XMLHttpRequest
+   xhr.open('Get', requestUrl)
+   // console.log("Here"); Just to check if we have reached here. 
+   xhr.onreadystatechange = function () {
+      console.log(xhr.readyState);
+      if (xhr.readyState === 4) {
+         const data = JSON.parse (this.responseText)
+         console.log(data.name);         
+      }
+   }
+    // console.log(xhr.readyState);
+   xhr.send();
+  
+   
+   
+ </script>
+ </html>
