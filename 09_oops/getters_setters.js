@@ -16,3 +16,4 @@ const hulk = Object.create(user)
 console.log(hulk._email);
 
 console.log(hulk.email);
+
