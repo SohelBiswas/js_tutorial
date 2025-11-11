@@ -51,7 +51,7 @@ let citiesPopulation = {
 let citiesNewPopulation = {}
 
 for (const city in citiesPopulation) {
-
+ 
     if (city =='berlin' || city == 'Berlin') {
         break;
     }
