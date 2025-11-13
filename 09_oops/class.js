@@ -13,4 +13,4 @@ class user {
 const thor = new user('Thor', 'thor@avengers.com', '1234')
 
 console.log(thor);
-console.log(thor.encryptPassword);
+console.log(thor.encryptPassword());
