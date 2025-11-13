@@ -36,8 +36,50 @@ function makeTea(teaType) {
 
 // const orderedTea = processTeaOrder(makeTea)
 // console.log(orderedTea);
-console.log(processTeaOrder(makeTea));
+// console.log(processTeaOrder(makeTea));
 
+
+
+
+// function createTeaMaker() {
+//     return randomfn
+// }
+
+// function randomfn(teaType) {
+//     return `Making ${teaType}`
+    
+// }
+
+// // teaMaker = randomfn('green tea')
+// // createTeaMaker(teaMaker)
+// // console.log(createTeaMaker());
+// console.log(randomfn('green tea'));
+// // console.log(createTeaMaker());
+
+
+// // console.log(teaMaker);
+
+
+
+function createTeaMaker() {
+    return function (teaType){
+        return `making tea ${teaType}`
+    }
+}
+
+let teaMaker = createTeaMaker("green tea")
+
+
+
+function sumOfN(n) {
+  let sum = 0;
+  for(let i = 0; i <= n; i++){
+      sum = sum + i;
+  }
+  
+  return sum;
+}
+console.log(sumOfN());
 
 
 
