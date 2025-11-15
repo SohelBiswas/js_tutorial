@@ -3,12 +3,16 @@ class BankAccount {
  
      deposit(amount){
         this.#balance += amount
-        return `The balance is $ ${this.#balance}`
+        console.log(`The deposit is ${amount}`);
+        
+      //   return this.#balance
      }
-    //  getbalance(){
-    //     return
-    //  }
+     getbalance(){
+        return ` The balance is $ ${this.#balance}`
+     }
 }
 
 let account = new BankAccount()
 console.log(account.deposit(30));
+console.log(account.getbalance());
+
