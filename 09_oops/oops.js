@@ -22,13 +22,14 @@ class Person {
     constructor(name, age) {
         this.name = name;
         this.age = age;
-    }
-    if (age<0) 
+    
+    if (age<0) {
         throw new Error("Age is not a positive number")
         
-    }   
+    }}   
 
 Person.prototype.greet = function() {
     console.log(`Hello, my name is ${this.name}`);
     
+}
 }
